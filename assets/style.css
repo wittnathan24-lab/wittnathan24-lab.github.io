@@ -13,3 +13,21 @@ dialog{background:#131c16;color:var(--ink);border:1px solid #ffffff25;max-width:
 @media(max-width:900px) and (min-width:641px){.forum-window{height:70%;top:20%;width:70%;left:15%}.forum-window-bar{height:16px;padding:0 7px}.forum-window-bar>span{font-size:3px}.forum-thread{margin:9px 12px;gap:8px}.forum-avatar{width:20px;height:20px;font-size:12px}.forum-thread strong{font-size:9px}.forum-thread div>span{font-size:6px}.forum-line{margin:7px 12px;gap:8px}.forum-line>i{width:12px;height:12px}.forum-line>div{gap:3px}.forum-line b,.forum-line div>span{height:2px}.forum-window-bottom{bottom:6px;left:12px;right:12px;font-size:3px;letter-spacing:.5px}.forum-floating{font-size:6px;bottom:5%}.power-title{font-size:20px}.power-title i{font-size:14px}.power-board{padding:8px;gap:5px}.power-caption,.bounty-coordinate{font-size:4px;letter-spacing:.7px}.bounty-name{font-size:28px}.bounty-name>span{font-size:4px;letter-spacing:1.7px}.bounty-compass{width:145px;height:145px}.bounty-compass>span{font-size:4px}}
 @media(max-width:640px){.filters{display:grid;grid-template-columns:repeat(2,1fr);gap:7px}.filter{padding:10px 8px;font-size:9px}.private-badge{font-size:6px}.forum-window{height:70%;top:20%}.forum-window-bar>span{font-size:4px}.forum-thread{margin:12px;gap:10px}.forum-thread strong{font-size:11px}.forum-thread div>span{font-size:7px}.forum-line{margin:10px 12px}.forum-line>i{width:15px;height:15px}.forum-window-bottom{font-size:3px;left:12px;right:12px;bottom:10px}.forum-floating{font-size:6px;bottom:6%}.power-title{font-size:22px}.power-title i{font-size:16px}.power-board{padding:9px;gap:6px}.power-caption,.bounty-coordinate{font-size:5px;letter-spacing:.8px}.bounty-name{font-size:32px}.bounty-name>span{font-size:5px;letter-spacing:1.4px}.bounty-compass{width:165px;height:165px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
+
+/* A quieter closing palette, shared by both languages. */
+.contact-section{background:#101713;color:#e8ece4}
+.contact-top .eyebrow>span{color:#9cae94}
+.contact-note{color:#abb7a6}
+.contact-note .status-dot{background:#a9bc9a}
+.contact-body h2>span{color:#9cae94}
+.contact-body>p{color:#abb7a6}
+.contact-orb{background:#243129;color:#cad9c0}
+.contact-orb:hover{background:#344438}
+.email-row>a{border-bottom-color:#c7d6bd55}
+.email-row>button{background:#ffffff08;border-color:#ffffff30}
+.email-row>button:hover{background:#ffffff14}
+.email-row>span{color:#cad9c0}
+.social-row{border-top-color:#ffffff24}
+.social-row>a:not(:first-child){border-left-color:#ffffff24}
+.social-row>a>span{color:#9cae94}
+.contact-section a:focus-visible,.contact-section button:focus-visible{outline-color:#c0e58c}
