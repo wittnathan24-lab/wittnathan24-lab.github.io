@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wittnathan24-lab.github.io/sitemap.xml
